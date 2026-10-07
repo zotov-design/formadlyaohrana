@@ -26,6 +26,15 @@
   bottom: clamp(56px, 6cqw, 116px);
 }
 
+/* Open the trousers label into the light area to the model's left. */
+.sets-module__GACkeG__trousers .sets-module__GACkeG__flag {
+  position: absolute;
+  right: calc(50% - 1.5625cqw);
+  flex-direction: row-reverse;
+  transform-origin: right center;
+  padding: .520833cqw .520833cqw .520833cqw 24px;
+}
+
 /* Keep the complete outfit composition within one viewport. */
 @media (min-width: 761px) {
   .sets-module__GACkeG__section {
@@ -142,5 +151,8 @@
   .sets-module__GACkeG__copy { top: calc(var(--sets-figure-h) + 144px); }
   .sets-module__GACkeG__copy h3 { margin-bottom: 12px; }
   .sets-module__GACkeG__copy p { margin-bottom: 16px; }
-}
+  .sets-module__GACkeG__trousers .sets-module__GACkeG__flag {
+    right: calc(50% - 28px);
+    padding: 8px 8px 8px 12px;
+  }
 }
