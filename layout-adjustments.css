@@ -1,0 +1,41 @@
+/* Compact utility bar and keep the hero CTA inside short browser windows. */
+.v2-module__BE6ivq__topbar {
+  height: 1.96875cqw;
+  font-size: .75cqw;
+}
+
+.v2-module__BE6ivq__heroMedia {
+  top: 1.96875cqw;
+}
+
+.v2-module__BE6ivq__hero {
+  height: min(55.8333cqw, 100svh);
+}
+
+.v2-module__BE6ivq__heroCopy {
+  bottom: clamp(56px, 6cqw, 116px);
+}
+
+@media (max-width: 760px) {
+  .v2-module__BE6ivq__topbar {
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .v2-module__BE6ivq__heroMedia {
+    top: 30px;
+  }
+
+  .v2-module__BE6ivq__mainbar nav {
+    top: 102px;
+  }
+
+  .v2-module__BE6ivq__hero {
+    height: 90svh;
+    min-height: min(600px, 100svh);
+  }
+
+  .v2-module__BE6ivq__heroCopy {
+    bottom: 64px;
+  }
+}
