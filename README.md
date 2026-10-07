@@ -12,5 +12,5 @@ GitHub Pages: https://zotov-design.github.io/formadlyaohrana/
 
 ## Версия V1
 
-Текущий макет V1 находится в [v1-site](v1-site/README.md). Для локального просмотра: `node v1-site/serve.mjs`; для размещения как отдельного статического сайта используйте папку `v1-site` как корень публикации.
+Текущий макет V1: https://zotov-design.github.io/formadlyaohrana/v1-site/. Файлы находятся в [v1-site](v1-site/README.md). Для локального просмотра: `node v1-site/serve.mjs`.
 

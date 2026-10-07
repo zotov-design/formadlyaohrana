@@ -3,6 +3,7 @@ import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
 
 const root = path.resolve(import.meta.dirname);
+const pagesPrefix = "/formadlyaohrana/v1-site";
 const types = {
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
@@ -21,7 +22,13 @@ http
   .createServer(async (req, res) => {
     try {
       const url = new URL(req.url, "http://127.0.0.1");
-      const target = path.resolve(root, "." + decodeURIComponent(url.pathname));
+      const pathname = decodeURIComponent(url.pathname);
+      const localPath = pathname === pagesPrefix
+        ? "/"
+        : pathname.startsWith(pagesPrefix + "/")
+          ? pathname.slice(pagesPrefix.length)
+          : pathname;
+      const target = path.resolve(root, "." + localPath);
       if (target !== root && !target.startsWith(root + path.sep)) {
         res.writeHead(403);
         res.end();
