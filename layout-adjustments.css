@@ -26,6 +26,63 @@
   bottom: clamp(56px, 6cqw, 116px);
 }
 
+/* Keep the complete outfit composition within one viewport. */
+@media (min-width: 761px) {
+  .sets-module__GACkeG__section {
+    --sets-u: min(.86cqw, calc((100svh - 32px) / 57.0313));
+    height: calc(57.0313 * var(--sets-u));
+  }
+  .sets-module__GACkeG__heading { top: calc(3.69792 * var(--sets-u)); }
+  .sets-module__GACkeG__model {
+    width: calc(18.8542 * var(--sets-u));
+    height: calc(25.1563 * var(--sets-u));
+    top: calc(9.94792 * var(--sets-u));
+  }
+  .sets-module__GACkeG__model[data-position="0"] { left: calc(32.8125% - 9.4271 * var(--sets-u)); }
+  .sets-module__GACkeG__model[data-position="2"] { left: calc(67.1875% - 9.4271 * var(--sets-u)); }
+  .sets-module__GACkeG__model[data-position="1"] {
+    width: calc(30.7597 * var(--sets-u));
+    height: calc(40.9375 * var(--sets-u));
+    left: calc(50% - 15.37985 * var(--sets-u));
+  }
+  .sets-module__GACkeG__silhouette {
+    width: calc(13.9583 * var(--sets-u));
+    height: calc(18.5938 * var(--sets-u));
+    top: calc(13.2292 * var(--sets-u));
+  }
+  .sets-module__GACkeG__shadowLeft { left: calc(19.53125% - 6.97915 * var(--sets-u)); }
+  .sets-module__GACkeG__shadowRight { left: calc(81.92705% - 6.97915 * var(--sets-u)); }
+  .sets-module__GACkeG__ground {
+    width: calc(21.8484 * var(--sets-u));
+    height: calc(2.17127 * var(--sets-u));
+    top: calc(37.4479 * var(--sets-u));
+    left: calc(50% - 10.9242 * var(--sets-u));
+  }
+  .sets-module__GACkeG__shirt {
+    top: calc(10.4167 * var(--sets-u));
+    left: calc(50% + 2.5521 * var(--sets-u));
+  }
+  .sets-module__GACkeG__trousers {
+    top: calc(22.3438 * var(--sets-u));
+    left: calc(50% - 2.3437 * var(--sets-u));
+  }
+  .sets-module__GACkeG__colors { top: calc(41.6927 * var(--sets-u)); }
+  .sets-module__GACkeG__copy { top: calc(45.6771 * var(--sets-u)); }
+  .sets-module__GACkeG__copy h3 {
+    font-size: max(16px, calc(1.14583 * var(--sets-u)));
+    margin-bottom: calc(1.04167 * var(--sets-u));
+  }
+  .sets-module__GACkeG__copy p {
+    font-size: max(12px, calc(1.04167 * var(--sets-u)));
+    margin-bottom: calc(1.82292 * var(--sets-u));
+  }
+  .sets-module__GACkeG__copy a {
+    height: max(36px, calc(2.91667 * var(--sets-u)));
+    padding-inline: max(12px, calc(1.04167 * var(--sets-u)));
+    font-size: max(11px, calc(.833333 * var(--sets-u))) !important;
+  }
+}
+
 @media (max-width: 760px) {
   .v2-module__BE6ivq__topbar {
     height: 30px;
@@ -48,4 +105,42 @@
   .v2-module__BE6ivq__heroCopy {
     bottom: 64px;
   }
+
+  .sets-module__GACkeG__section {
+    --sets-figure-h: min(105vw, calc(100svh - 300px));
+    height: calc(var(--sets-figure-h) + 292px);
+  }
+  .sets-module__GACkeG__heading { top: 24px; }
+  .sets-module__GACkeG__model {
+    width: calc(.461 * var(--sets-figure-h));
+    height: calc(.615 * var(--sets-figure-h));
+    top: calc(84px + .243 * var(--sets-figure-h));
+  }
+  .sets-module__GACkeG__model[data-position="0"] { left: calc(12% - .2305 * var(--sets-figure-h)); }
+  .sets-module__GACkeG__model[data-position="2"] { left: calc(88% - .2305 * var(--sets-figure-h)); }
+  .sets-module__GACkeG__model[data-position="1"] {
+    width: calc(.7514 * var(--sets-figure-h));
+    height: var(--sets-figure-h);
+    top: 84px;
+    left: calc(50% - .3757 * var(--sets-figure-h));
+  }
+  .sets-module__GACkeG__ground { top: calc(84px + .915 * var(--sets-figure-h)); }
+  .sets-module__GACkeG__silhouette {
+    width: calc(.341 * var(--sets-figure-h));
+    height: calc(.454 * var(--sets-figure-h));
+    top: calc(84px + .323 * var(--sets-figure-h));
+  }
+  .sets-module__GACkeG__shirt {
+    top: calc(84px + .2545 * var(--sets-figure-h));
+    left: calc(50% + .0623 * var(--sets-figure-h));
+  }
+  .sets-module__GACkeG__trousers {
+    top: calc(84px + .5458 * var(--sets-figure-h));
+    left: calc(50% - .0573 * var(--sets-figure-h));
+  }
+  .sets-module__GACkeG__colors { top: calc(var(--sets-figure-h) + 100px); }
+  .sets-module__GACkeG__copy { top: calc(var(--sets-figure-h) + 144px); }
+  .sets-module__GACkeG__copy h3 { margin-bottom: 12px; }
+  .sets-module__GACkeG__copy p { margin-bottom: 16px; }
+}
 }
