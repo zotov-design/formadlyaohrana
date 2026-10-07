@@ -1,0 +1,156 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,54143,e=>{e.v({angleFade:"v1-module__OEjooq__angleFade",arrows:"v1-module__OEjooq__arrows",blackButton:"v1-module__OEjooq__blackButton",card:"v1-module__OEjooq__card",cardActions:"v1-module__OEjooq__cardActions",cartList:"v1-module__OEjooq__cartList",catalog:"v1-module__OEjooq__catalog",dialog:"v1-module__OEjooq__dialog",dialogEnter:"v1-module__OEjooq__dialogEnter",dialogHead:"v1-module__OEjooq__dialogHead",dialogLinks:"v1-module__OEjooq__dialogLinks",featured:"v1-module__OEjooq__featured",header:"v1-module__OEjooq__header",headerIcon:"v1-module__OEjooq__headerIcon",headingGlyph:"v1-module__OEjooq__headingGlyph",hero:"v1-module__OEjooq__hero",heroCopy:"v1-module__OEjooq__heroCopy",heroPhoto:"v1-module__OEjooq__heroPhoto",heroShade:"v1-module__OEjooq__heroShade",heroVideo:"v1-module__OEjooq__heroVideo",heroVideoFinished:"v1-module__OEjooq__heroVideoFinished",hyperBase:"v1-module__OEjooq__hyperBase",hyperText:"v1-module__OEjooq__hyperText",hyperWrap:"v1-module__OEjooq__hyperWrap",link:"v1-module__OEjooq__link",logo:"v1-module__OEjooq__logo",nav:"v1-module__OEjooq__nav",page:"v1-module__OEjooq__page",price:"v1-module__OEjooq__price",productArrow:"v1-module__OEjooq__productArrow",productInfo:"v1-module__OEjooq__productInfo",productName:"v1-module__OEjooq__productName",productPhoto:"v1-module__OEjooq__productPhoto",products:"v1-module__OEjooq__products",quickView:"v1-module__OEjooq__quickView",rotationMedia:"v1-module__OEjooq__rotationMedia",rotationVideo:"v1-module__OEjooq__rotationVideo",searchInput:"v1-module__OEjooq__searchInput",seasons:"v1-module__OEjooq__seasons",sectionHeading:"v1-module__OEjooq__sectionHeading",services:"v1-module__OEjooq__services",setColors:"v1-module__OEjooq__setColors",setContent:"v1-module__OEjooq__setContent",setDetails:"v1-module__OEjooq__setDetails",setHeading:"v1-module__OEjooq__setHeading",setPhoto:"v1-module__OEjooq__setPhoto",setVisual:"v1-module__OEjooq__setVisual",sets:"v1-module__OEjooq__sets",sku:"v1-module__OEjooq__sku",swatches:"v1-module__OEjooq__swatches",tools:"v1-module__OEjooq__tools",triangle:"v1-module__OEjooq__triangle",typeCharacter:"v1-module__OEjooq__typeCharacter",typingCharacter:"v1-module__OEjooq__typingCharacter",typingHeading:"v1-module__OEjooq__typingHeading",underlineGrow:"v1-module__OEjooq__underlineGrow"})},87380,e=>{"use strict";var a=e.i(89818),r=e.i(87245),t=e.i(79771);let s={name:"equal",size:24,node:[["line",{x1:"5",x2:"19",y1:"9",y2:"9",key:"1nwqeh"}],["line",{x1:"5",x2:"19",y1:"15",y2:"15",key:"g8yjpy"}]]};s.node;let o=(0,t.default)(s);var l=e.i(17279);let n={name:"shopping-cart",size:24,node:[["path",{d:"m2.05 2.05 1.099-.028a1 1 0 0 1 1.008.815l2.69 14.347A1 1 0 0 0 7.83 18H18",key:"uebgi3"}],["path",{d:"M4.563 5h16.435a1 1 0 0 1 .981 1.204l-1.026 6.226A2 2 0 0 1 18.962 14H6.25",key:"1j7c9p"}],["circle",{cx:"18",cy:"20",r:"2",key:"t9985n"}],["circle",{cx:"8",cy:"20",r:"2",key:"ckkr5m"}]]};n.node;let i=(0,t.default)(n);var d=e.i(32039),c=e.i(54143);let u="АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЭЮЯ";function h({href:e,children:r}){return(0,a.jsx)("a",{href:e,className:c.default.link,"data-reveal":"idle",children:r})}function m({children:e,href:r,onClick:t,disabled:s,icon:o}){let l=(0,a.jsxs)(a.Fragment,{children:[o,(0,a.jsx)("span",{children:e})]});return r?(0,a.jsx)("a",{href:r,className:c.default.blackButton,children:l}):(0,a.jsx)("button",{type:"button",className:c.default.blackButton,disabled:s,onClick:t,children:l})}function p({name:e}){return(0,a.jsx)("span",{"aria-hidden":"true",className:c.default.headerIcon,style:{maskImage:`url(/v1/${e}.svg)`,WebkitMaskImage:`url(/v1/${e}.svg)`}})}function f(){let e=(0,r.useRef)(null),t=(0,r.useRef)(null),[s,o]=(0,r.useState)(!1);return(0,r.useEffect)(()=>{let a=!1,r=window.matchMedia("(prefers-reduced-motion: reduce)"),s=()=>{r.matches&&(t.current?.pause(),o(!0))};return r.addEventListener("change",s),r.matches?s():e.current?.decode().then(async()=>{if(!a&&!r.matches)try{await t.current?.play()}catch{a||o(!0)}}).catch(()=>{a||o(!0)}),()=>{a=!0,r.removeEventListener("change",s)}},[]),(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)("img",{ref:e,className:c.default.heroPhoto,src:"/v1/hero-video-still.png",alt:"Охранник в зимней форме на производстве",fetchPriority:"high"}),(0,a.jsx)("video",{ref:t,className:`${c.default.heroPhoto} ${c.default.heroVideo} ${s?c.default.heroVideoFinished:""}`,src:"/v1/hero-reverse.mp4",poster:"/v1/hero-video-poster.webp",muted:!0,playsInline:!0,preload:"auto","aria-hidden":"true",tabIndex:-1,onEnded:()=>o(!0),onError:()=>o(!0)}),(0,a.jsxs)("svg",{className:c.default.heroShade,viewBox:"0 0 1920 920",preserveAspectRatio:"none","aria-hidden":"true",children:[(0,a.jsx)("defs",{children:(0,a.jsxs)("linearGradient",{id:"hero-corner-shade",x1:"1920",y1:"0",x2:"1493.34",y2:"411.446",gradientUnits:"userSpaceOnUse",children:[(0,a.jsx)("stop",{stopColor:"#000"}),(0,a.jsx)("stop",{offset:"1",stopColor:"#000",stopOpacity:"0"})]})}),(0,a.jsx)("rect",{x:"800",width:"1120",height:"920",fill:"url(#hero-corner-shade)"})]})]})}let _=["спереди","левый бок","сзади","правый бок"],j=e=>`/v1/rotation-220627/stop-${e}.webp`,x=(0,r.forwardRef)(function({onBusyChange:e,onAngleChange:t},s){let[o,l]=(0,r.useState)(0),[n,i]=(0,r.useState)(null),[d,u]=(0,r.useState)(!1),h=(0,r.useRef)(null),m=(0,r.useRef)(null),[p,f]=(0,r.useState)(!1),x=(0,r.useRef)(!1),v=(0,r.useRef)(0);(0,r.useEffect)(()=>()=>{v.current++},[]);let g=(a,r=!1)=>{l(a),t(a),r||(i(null),u(!1),f(!1)),x.current=!1,e(!1)};return(0,r.useImperativeHandle)(s,()=>({reset(){v.current++,h.current?.pause(),g(0)},async rotate(a){if(x.current||-1===a&&0===o)return;let r=(o+a+4)%4;if(window.matchMedia("(prefers-reduced-motion: reduce)").matches)return void g(r);x.current=!0,e(!0);let t=++v.current,s=new Image;s.src=j(r);try{await s.decode()}catch{}if(t!==v.current)return;u(!1);let l=1===a?o:r;i({src:`/v1/rotation-220627/${1===a?"forward":"backward"}-${l}.mp4`,target:r,key:t})}})),(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)("img",{className:`${c.default.setPhoto} ${c.default.rotationMedia}`,src:j(o),style:{visibility:d||p?"hidden":"visible"},alt:`Летний комплект — ${_[o]}`}),(0,a.jsx)("canvas",{ref:m,className:`${c.default.setPhoto} ${c.default.rotationMedia}`,style:{visibility:p&&!d?"visible":"hidden"},"aria-hidden":"true"}),n&&(0,a.jsx)("video",{ref:h,src:n.src,muted:!0,playsInline:!0,preload:"auto",className:`${c.default.setPhoto} ${c.default.rotationMedia} ${c.default.rotationVideo}`,style:{opacity:+!!d},"aria-hidden":"true",tabIndex:-1,onLoadedData:async()=>{try{await h.current?.play()}catch{g(n.target)}},onPlaying:()=>u(!0),onEnded:e=>{let a=e.currentTarget,r=m.current;r&&(r.width=a.videoWidth,r.height=a.videoHeight,r.getContext("2d")?.drawImage(a,0,0),f(!0)),g(n.target,!0)},onError:()=>g(n.target)},n.key)]})});function v({children:e,level:t=2}){let s=(0,r.useRef)(null),{text:o,onMouseEnter:l}=function(e){let[a,t]=(0,r.useState)(e),s=(0,r.useRef)(null);(0,r.useEffect)(()=>()=>{null!==s.current&&cancelAnimationFrame(s.current)},[]);let o=()=>{null!==s.current&&cancelAnimationFrame(s.current),s.current=null,t(e)},l=()=>{if(o(),window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;let a=performance.now(),r=-1,l=o=>{let n=Math.min((o-a)/800,1),i=Math.floor((o-a)/40);if(1===n){t(e),s.current=null;return}if(i!==r){r=i;let a=Math.floor(n*e.length);t(Array.from(e).map((e,r)=>r<a||/\s/.test(e)?e:u[Math.floor(Math.random()*u.length)]).join(""))}s.current=requestAnimationFrame(l)};s.current=requestAnimationFrame(l)};return{text:a,onMouseEnter:l,onMouseLeave:o,onFocus:l,onBlur:o}}(e),n=(0,r.useRef)(l);return n.current=l,(0,r.useEffect)(()=>{let e=s.current;if(!e||window.matchMedia("(prefers-reduced-motion: reduce)").matches||!("IntersectionObserver"in window))return;let a=new IntersectionObserver(e=>{e.some(e=>e.isIntersecting)&&(e[0].target.dataset.headingReveal="shown",n.current(),a.disconnect())},{threshold:.3});return a.observe(e),()=>a.disconnect()},[]),(0,a.jsx)(1===t?"h1":"h2",{ref:s,"data-heading-reveal":"waiting","aria-label":e.replace(/\n/g," "),children:(0,a.jsx)("span",{"aria-hidden":"true",className:c.default.headingReveal,children:Array.from(e).map((e,r)=>"\n"===e?(0,a.jsx)("br",{},r):(0,a.jsx)("span",{className:c.default.typingCharacter,style:{animationDelay:`${45*r}ms`},children:(0,a.jsx)("span",{className:c.default.headingGlyph,children:Array.from(o)[r]??e})},r))})})}let g=[{sku:"КТ-АС03",name:"Куртка летняя тактическая ЖДБ",price:1950,old:2350},{sku:"БК-AL02",name:"Брюки охранника Альфа",price:1760,old:0},{sku:"БК1-05",name:"Бейсболка охранника",price:630,old:0},{sku:"КР4-ПТ05",name:"Куртка охранника Пилот",price:3400,old:4200}],k=[["Черный","#10101c"],["Синий","#334d75"],["Олива","#898d76"],["Темная олива","#5c5c40"]],y=e=>new Intl.NumberFormat("ru-RU").format(e)+" ₽";function b({direction:e="right"}){return(0,a.jsx)("svg",{className:c.default.triangle,viewBox:"0 0 8 8","aria-hidden":"true",style:{transform:"down"===e?"rotate(90deg)":"left"===e?"rotate(180deg)":void 0},children:(0,a.jsx)("path",{d:"M2 0L7 4L2 8Z",fill:"currentColor"})})}function w({text:e,href:r,onClick:t,className:s,icon:l}){let n=(0,a.jsxs)(a.Fragment,{children:["catalog"===l&&(0,a.jsx)(o,{}),(0,a.jsx)("span",{children:e}),"services"===l&&(0,a.jsx)(b,{direction:"down"})]});return r?(0,a.jsx)("a",{href:r,className:s,"aria-label":e,children:n}):(0,a.jsx)("button",{className:s,"aria-label":e,onClick:t,children:n})}// Components for the exported React page. Uses its existing React/JSX modules.
+function FormaCatalog({kind='catalog'}) {
+  const services=kind==='services';
+  const label=services?'УСЛУГИ':'КАТАЛОГ';
+  const id=services?'forma-services-links':'forma-catalog-links';
+  const entries=services?[
+    ['Нанесение логотипов','https://formaohrana.ru/nanesenie-logotipov'],
+    ['Индивидуальный пошив','https://formaohrana.ru/kontakty']
+  ]:d.categories;
+  const [open, setOpen] = (0,r.useState)(false);
+  const root = (0,r.useRef)(null);
+  const closeTimer = (0,r.useRef)(null);
+  const show = () => {
+    clearTimeout(closeTimer.current);
+    document.dispatchEvent(new CustomEvent('forma-dropdown-open',{detail:id}));
+    setOpen(true);
+  };
+  const leave = () => {
+    clearTimeout(closeTimer.current);
+    closeTimer.current = setTimeout(() => {
+      if (!root.current?.contains(document.activeElement)) setOpen(false);
+    }, 120);
+  };
+  (0,r.useEffect)(() => {
+    const dismiss = event => { if (!root.current?.contains(event.target)) setOpen(false); };
+    const otherMenu=event=>{if(event.detail!==id)setOpen(false);};
+    const escape = event => {
+      if (event.key === 'Escape' && open) {
+        setOpen(false);
+        root.current?.querySelector('button')?.focus();
+      }
+    };
+    document.addEventListener('pointerdown', dismiss);
+    document.addEventListener('keydown', escape);
+    document.addEventListener('forma-dropdown-open',otherMenu);
+    return () => {
+      clearTimeout(closeTimer.current);
+      document.removeEventListener('pointerdown', dismiss);
+      document.removeEventListener('keydown', escape);
+      document.removeEventListener('forma-dropdown-open',otherMenu);
+    };
+  }, [open]);
+  return (0,a.jsxs)('div', {
+    ref:root, className:'forma-catalog'+(services?' forma-services':''), onMouseEnter:show, onMouseLeave:leave,
+    onBlur:event => { if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false); },
+    children:[
+      (0,a.jsxs)('button', {
+        type:'button', className:services?c.default.services:c.default.catalog, 'aria-label':label,
+        'aria-expanded':open, 'aria-controls':id,
+        onClick:event=>{
+          if(event.detail>0 && matchMedia('(hover:hover)').matches) show();
+          else setOpen(value=>!value);
+        },
+        onKeyDown:event=>{
+          if (event.key==='ArrowDown') { event.preventDefault(); show(); requestAnimationFrame(()=>root.current?.querySelector('nav a')?.focus()); }
+        },
+        children:services?[(0,a.jsx)('span',{className:'forma-catalog-label',children:label}),(0,a.jsx)(b,{direction:'down'})]:[(0,a.jsx)(o,{}),(0,a.jsx)('span',{className:'forma-catalog-label',children:label})]
+      }),
+      (0,a.jsx)('nav', {
+        id, className:'forma-catalog-links', hidden:!open,
+        'aria-label':services?'Услуги компании':'Категории каталога',
+        children:entries.map(([label,url])=>(0,a.jsxs)('a',{
+          href:url, children:[label,(0,a.jsx)(b,{})]
+        },label))
+      })
+    ]
+  });
+}
+
+function FormaCarousel({children}) {
+  const track = (0,r.useRef)(null);
+  const busy = (0,r.useRef)(false);
+  const count = children.length;
+  (0,r.useEffect)(() => {
+    const el=track.current;
+    if (!el) return;
+    let timer;
+    let lastWidth=0;
+    const cardWidth=()=>el.firstElementChild?.getBoundingClientRect().width || 1;
+    const accessibility=()=>{
+      const start=el.scrollLeft;
+      Array.from(el.children).forEach((card,index)=>{
+        const visible=(index+1)*cardWidth()>start+2 && index*cardWidth()<start+el.clientWidth-2;
+        card.inert=!visible;
+        card.setAttribute('aria-hidden',String(!visible));
+      });
+    };
+    const normalize=()=>{
+      const cycle=cardWidth()*count;
+      const x=el.scrollLeft;
+      if (x<cycle/2) el.scrollTo({left:x+cycle,behavior:'instant'});
+      else if (x>=cycle*1.5) el.scrollTo({left:x-cycle,behavior:'instant'});
+      accessibility(); busy.current=false;
+    };
+    const onScroll=()=>{ clearTimeout(timer); timer=setTimeout(normalize,140); };
+    const resize=()=>{
+      const width=cardWidth();
+      const index=lastWidth ? Math.round(el.scrollLeft/lastWidth) : count;
+      el.scrollTo({left:index*width,behavior:'instant'});
+      lastWidth=width; accessibility();
+    };
+    resize();
+    const observer=new ResizeObserver(resize);
+    observer.observe(el);
+    el.addEventListener('scroll',onScroll,{passive:true});
+    return ()=>{clearTimeout(timer);observer.disconnect();el.removeEventListener('scroll',onScroll);};
+  },[count]);
+  const move=direction=>{
+    const el=track.current;
+    if (!el || busy.current) return;
+    busy.current=true;
+    const width=el.firstElementChild.getBoundingClientRect().width;
+    const left=(Math.round(el.scrollLeft/width)+direction)*width;
+    el.scrollTo({left,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+  };
+  return (0,a.jsxs)('div',{
+    className:c.default.products+' forma-carousel', role:'region',
+    'aria-roledescription':'карусель', 'aria-label':'Популярные товары',
+    children:[
+      (0,a.jsx)('div',{
+        className:'forma-carousel-track', ref:track,
+        children:[0,1,2].flatMap(copy=>children.map((card,index)=>(0,r.cloneElement)(card,{
+          key:`${copy}-${card.key}`, 'data-carousel-index':copy*count+index,
+          'aria-hidden':copy!==1, inert:copy!==1,
+          'aria-label':`${index+1} из ${count}`
+        })))
+      }),
+      (0,a.jsx)('button',{
+        type:'button', className:c.default.productArrow+' forma-carousel-prev',
+        'aria-label':'Предыдущие товары', onClick:()=>move(-1), children:(0,a.jsx)(b,{direction:'left'})
+      }),
+      (0,a.jsx)('button',{
+        type:'button', className:c.default.productArrow,
+        'aria-label':'Следующие товары', onClick:()=>move(1), children:(0,a.jsx)(b,{})
+      })
+    ]
+  });
+}
+
+function FormaReveal(root){
+  if(!root)return;
+  const motion=matchMedia('(prefers-reduced-motion: reduce)');
+  const nodes=Array.from(root.querySelectorAll('[data-reveal],[data-block-reveal]'));
+  const show=node=>{node.dataset[node.hasAttribute('data-block-reveal')?'blockReveal':'reveal']='shown';};
+  if(motion.matches || !('IntersectionObserver' in window)){nodes.forEach(show);return;}
+  const observer=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{if(entry.isIntersecting){show(entry.target);observer.unobserve(entry.target);}});
+  },{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+  nodes.forEach(node=>{node.dataset[node.hasAttribute('data-block-reveal')?'blockReveal':'reveal']='waiting';observer.observe(node);});
+  const focus=event=>{const node=event.target.closest('[data-reveal],[data-block-reveal]');if(node){show(node);observer.unobserve(node);}};
+  const reduced=()=>{if(motion.matches){observer.disconnect();nodes.forEach(show);}};
+  root.addEventListener('focusin',focus);motion.addEventListener('change',reduced);
+  return()=>{observer.disconnect();root.removeEventListener('focusin',focus);motion.removeEventListener('change',reduced);};
+}
+
+e.s(["default",0,function(){let e=(0,r.useRef)(null);(0,r.useEffect)(()=>FormaReveal(e.current),[e]);let t=(0,r.useRef)(null),s=(0,r.useRef)(null),[o,n]=(0,r.useState)("menu"),[u,_]=(0,r.useState)(1),[j,E]=(0,r.useState)(""),[N,O]=(0,r.useState)(1),[q,C]=(0,r.useState)(!1),[$,L]=(0,r.useState)(0),[S,A]=(0,r.useState)(""),[I,z]=(0,r.useState)(""),[M,R]=(0,r.useState)([]),F=(e,a)=>{n(e),void 0!==a&&(_(a),E(""),z("")),s.current?.showModal()};return(0,a.jsxs)("main",{ref:e,className:c.default.page,children:[(0,a.jsxs)("section",{className:c.default.hero,children:[(0,a.jsx)(f,{}),(0,a.jsxs)("header",{className:c.default.header,"data-block-reveal":"waiting",children:[(0,a.jsxs)("nav",{className:c.default.nav,"aria-label":"Основная навигация",children:[(0,a.jsx)(FormaCatalog,{}),(0,a.jsx)(w,{text:"О КОМПАНИИ",href:"https://formaohrana.ru/o-nas/o-kompanii"}),(0,a.jsx)(FormaCatalog,{kind:"services"}),(0,a.jsx)(w,{text:"КОНТАКТЫ",href:"https://formaohrana.ru/kontakty"})]}),(0,a.jsx)("a",{href:"/v1",className:c.default.logo,children:(0,a.jsx)("img",{src:"/v1/logo.png",alt:"Форма для охраны"})}),(0,a.jsxs)("div",{className:c.default.tools,children:[(0,a.jsx)("button",{"aria-label":"Поиск",onClick:()=>F("search"),children:(0,a.jsx)(p,{name:"search"})}),(0,a.jsx)("a",{"aria-label":"Личный кабинет",href:"https://formaohrana.ru/my-account",children:(0,a.jsx)(p,{name:"user"})}),(0,a.jsxs)("button",{"aria-label":`Корзина, товаров: ${M.length}`,onClick:()=>F("cart"),children:[(0,a.jsx)(p,{name:"cart"}),M.length>0&&(0,a.jsx)("span",{children:M.length})]})]})]}),(0,a.jsxs)("div",{className:c.default.heroCopy,"data-block-reveal":"waiting",children:[(0,a.jsx)("p",{"data-reveal":"idle",children:"[ Коллекция 2026 / Зима ]"}),(0,a.jsx)(v,{level:1,children:"Зимняя форма\nдля охраны"}),(0,a.jsx)(h,{href:"https://formaohrana.ru/zimnyaya-forma-ohrannika",children:"Смотреть коллекцию"})]})]}),(0,a.jsxs)("section",{className:c.default.popular,id:"popular-v1","data-block-reveal":"waiting",children:[(0,a.jsxs)("div",{className:c.default.sectionHeading,children:[(0,a.jsx)(v,{children:"Популярные товары"}),(0,a.jsxs)("div",{children:[(0,a.jsx)(h,{href:"https://formaohrana.ru/",children:"Смотреть все"})]})]}),(0,a.jsx)(FormaCarousel,{children:g.map((e,r)=>(0,a.jsxs)("article",{className:c.default.card,style:{transitionDelay:`${65*r}ms`},children:[(0,a.jsx)("button",{className:c.default.productPhoto,onClick:()=>F("product",r),"aria-label":`Подробнее: ${e.name}`,children:(0,a.jsx)("img",{src:`/v1/product-${r}.webp`,alt:e.name})}),(0,a.jsxs)("div",{className:c.default.productInfo,children:[(0,a.jsxs)("p",{className:c.default.sku,children:["Арт: ",e.sku]}),(0,a.jsx)("button",{className:c.default.productName,onClick:()=>F("product",r),children:e.name}),(0,a.jsxs)("p",{className:c.default.price,children:[y(e.price)," ",e.old>0&&(0,a.jsx)("del",{children:y(e.old)})]}),(0,a.jsxs)("div",{className:c.default.cardActions,children:[(0,a.jsx)("div",{className:c.default.swatches,children:k.slice(1).map(([r,t],s)=>(0,a.jsx)("button",{style:{background:t},"aria-label":`${e.name}: ${r}`,"aria-pressed":N===s+1,onClick:()=>O(s+1)},r))}),(0,a.jsx)(m,{onClick:()=>F("product",r),icon:(0,a.jsx)(i,{}),children:"В корзину"})]})]})]},e.sku))})]}),(0,a.jsxs)("section",{className:c.default.sets,"data-block-reveal":"waiting",children:[(0,a.jsxs)("div",{className:c.default.setContent,children:[(0,a.jsxs)("div",{className:c.default.setHeading,children:[(0,a.jsx)("p",{"data-reveal":"idle",children:"[ Выберите готовый комплект ]"}),(0,a.jsx)(v,{children:"Комплект «Летний»"}),(0,a.jsx)("p",{"data-reveal":"idle",children:"Практичный комплект для работы в холодный сезон"})]}),(0,a.jsxs)("div",{className:c.default.setDetails,"data-reveal":"idle",children:[(0,a.jsx)("p",{children:"В комплект входит:"}),(0,a.jsxs)("a",{href:"https://formaohrana.ru/product/rubashka-alpha-s-dlinnym-rukavom-chernaya",children:[(0,a.jsx)("img",{src:"/v1/shirt.webp",alt:""}),"Рубашка охранника альфа с дл. рукавом",(0,a.jsx)(b,{})]}),(0,a.jsxs)("a",{href:"https://formaohrana.ru/product/bryuki-alpha-chernye",children:[(0,a.jsx)("img",{src:"/v1/trousers.webp",alt:""}),"Брюки охранника альфа",(0,a.jsx)(b,{})]}),(0,a.jsx)(m,{href:"https://formaohrana.ru/polnye-komplekty-3",children:"Смотреть комплект"})]})]}),(0,a.jsxs)("div",{className:c.default.setVisual,"data-reveal":"idle",children:[(0,a.jsx)(x,{ref:t,onBusyChange:C,onAngleChange:L}),(0,a.jsxs)("div",{className:c.default.arrows,children:[(0,a.jsx)("button",{"aria-label":"Предыдущий ракурс",disabled:q||0===$,onClick:()=>t.current?.rotate(-1),children:(0,a.jsx)(b,{direction:"left"})}),(0,a.jsx)("button",{"aria-label":"Следующий ракурс",disabled:q,onClick:()=>t.current?.rotate(1),children:(0,a.jsx)(b,{})})]}),(0,a.jsxs)("nav",{className:c.default.seasons,"aria-label":"Комплекты по сезону",children:[(0,a.jsxs)("button",{"aria-current":"true",onClick:()=>t.current?.reset(),children:[(0,a.jsx)("img",{src:"/v1/summer-thumb.png",alt:""}),(0,a.jsx)("span",{children:"Летний"})]}),(0,a.jsxs)("a",{href:"https://formaohrana.ru/zimnyaya-forma-ohrannika",children:[(0,a.jsx)("img",{src:"/v1/winter-thumb.webp",alt:""}),(0,a.jsx)("span",{children:"Зимний"})]}),(0,a.jsxs)("a",{href:"https://formaohrana.ru/",children:[(0,a.jsx)("img",{src:"/v1/midseason-thumb.webp",alt:""}),(0,a.jsx)("span",{children:"Демисезонный"})]})]}),(0,a.jsxs)("div",{className:c.default.setColors,children:[(0,a.jsxs)("p",{children:["Цвет формы: ",(0,a.jsx)("span",{children:"Черный"})]}),(0,a.jsx)("div",{className:c.default.swatches,children:k.map(([e,r],s)=>0===s?(0,a.jsx)("button",{"aria-label":"Черный комплект","aria-pressed":"true",style:{background:r},onClick:()=>t.current?.reset()},e):(0,a.jsx)("a",{"aria-label":`Комплекты: ${e}`,href:"https://formaohrana.ru/polnye-komplekty",style:{background:r}},e))})]})]})]}),(0,a.jsxs)("dialog",{ref:s,className:c.default.dialog,onClick:e=>{e.target===e.currentTarget&&s.current?.close()},"aria-labelledby":"panel-title",children:[(0,a.jsxs)("div",{className:c.default.dialogHead,children:[(0,a.jsx)("h2",{id:"panel-title",children:{menu:"Каталог",services:"Услуги",search:"Поиск",cart:"Корзина",product:g[u].name}[o]}),(0,a.jsx)("button",{"aria-label":"Закрыть",onClick:()=>s.current?.close(),autoFocus:!0,children:(0,a.jsx)(l.X,{})})]}),"menu"===o&&(0,a.jsx)("nav",{className:c.default.dialogLinks,children:d.categories.map(([e,r])=>(0,a.jsxs)("a",{href:r,children:[e,(0,a.jsx)(b,{})]},e))}),"services"===o&&(0,a.jsxs)("nav",{className:c.default.dialogLinks,children:[(0,a.jsxs)("a",{href:"https://formaohrana.ru/nanesenie-logotipov",children:["Нанесение логотипов",(0,a.jsx)(b,{})]}),(0,a.jsxs)("a",{href:"https://formaohrana.ru/kontakty",children:["Индивидуальный пошив",(0,a.jsx)(b,{})]})]}),"search"===o&&(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)("input",{className:c.default.searchInput,"aria-label":"Найти товар",placeholder:"Название или артикул",value:S,onChange:e=>A(e.target.value)}),(0,a.jsx)("div",{className:c.default.dialogLinks,children:g.map((e,a)=>({p:e,i:a})).filter(({p:e})=>(e.name+e.sku).toLowerCase().includes(S.toLowerCase())).map(({p:e,i:r})=>(0,a.jsxs)("button",{onClick:()=>{n("product"),_(r),E(""),z("")},children:[e.name,(0,a.jsx)(b,{})]},e.sku))}),!g.some(e=>(e.name+e.sku).toLowerCase().includes(S.toLowerCase()))&&(0,a.jsxs)("p",{children:["Товар не найден."," ",(0,a.jsx)("a",{href:"https://formaohrana.ru/",children:"Открыть полный каталог"})]})]}),"product"===o&&(0,a.jsxs)("div",{className:c.default.quickView,children:[(0,a.jsx)("img",{src:`/v1/product-${u}.webp`,alt:g[u].name}),(0,a.jsxs)("div",{children:[(0,a.jsxs)("p",{children:["Арт: ",g[u].sku]}),(0,a.jsx)("p",{children:y(g[u].price)}),(0,a.jsxs)("label",{children:["Размер",(0,a.jsxs)("select",{value:j,onChange:e=>E(e.target.value),children:[(0,a.jsx)("option",{value:"",children:"Выберите размер"}),(2===u?["Универсальный"]:["44–46","48–50","52–54","56–58","60–62"]).map(e=>(0,a.jsx)("option",{children:e},e))]})]}),(0,a.jsxs)("label",{children:["Цвет",(0,a.jsx)("select",{value:N,onChange:e=>O(Number(e.target.value)),children:k.map(([e],r)=>(0,a.jsx)("option",{value:r,children:e},e))})]}),(0,a.jsx)(m,{disabled:!j,onClick:()=>{R([...M,{index:u,size:j,color:k[N][0]}]),z("Товар добавлен в корзину")},children:"Добавить в корзину"}),(0,a.jsx)("p",{role:"status",children:I})]})]}),"cart"===o&&(0,a.jsx)(a.Fragment,{children:0===M.length?(0,a.jsx)("p",{children:"Корзина пока пуста. Выберите товар в разделе «Популярные товары»."}):(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)("ul",{className:c.default.cartList,children:M.map((e,r)=>(0,a.jsxs)("li",{children:[(0,a.jsxs)("span",{children:[g[e.index].name,(0,a.jsxs)("small",{children:[e.size," / ",e.color," ·"," ",y(g[e.index].price)]})]}),(0,a.jsx)("button",{"aria-label":`Удалить ${g[e.index].name}`,onClick:()=>R(M.filter((e,a)=>a!==r)),children:(0,a.jsx)(l.X,{})})]},r))}),(0,a.jsxs)("p",{children:["Итого:"," ",y(M.reduce((e,a)=>e+g[a.index].price,0))]}),(0,a.jsx)("p",{children:"Это демонстрационная корзина концепта. Для заказа свяжитесь с производителем."}),(0,a.jsx)("a",{className:c.default.blackButton,href:"https://formaohrana.ru/kontakty",children:"Обсудить заказ"})]})})]})]})}],87380)},79771,17279,32039,e=>{"use strict";var a=e.i(87245);let r=(...e)=>e.filter((e,a,r)=>!!e&&""!==e.trim()&&r.indexOf(e)===a).join(" ").trim(),t={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},s=(0,a.createContext)({}),o=(0,a.forwardRef)(({color:e,size:o,width:l,height:n,strokeWidth:i,absoluteStrokeWidth:d,nonScalingStroke:c,className:u="",children:h,iconNode:m=[],icon:p={node:m,aliases:[],size:24},...f},_)=>{let{size:j=24,strokeWidth:x=2,absoluteStrokeWidth:v=!1,nonScalingStroke:g=!1,color:k="currentColor",className:y=""}=(0,a.useContext)(s)??{},b=!!h||(e=>{for(let a in e)if(a.startsWith("aria-")||"role"===a||"title"===a)return!0;return!1})(f),[w,E,N=[]]=function(e,a={}){return function(e,a={}){let s=a.attributeNames??{},o=e=>s[e]??e,l=e.size??e.width??t.width,n=e.size??e.height??t.height,i=e.aliases?.filter(e=>"string"==typeof e&&""!==e.trim()).map(e=>`lucide-${e}`)??[],d=[...e.name?[`lucide-${e.name}`]:[],...i],c=a.className?.split(" ").filter(Boolean)??[],u=!1===a.includeDefaultClasses?r(...c):r("lucide",...d,...c),h=a.absoluteStrokeWidth?Number(a.strokeWidth??t["stroke-width"])*Number(e.size??e.width??t.width)/Number(a.size??a.width??t.width):a.strokeWidth??t["stroke-width"];return["svg",{...Object.entries(t).reduce((e,[a,r])=>(e[o(a)]=r,e),{}),..."color"in a&&a.color&&{[o("stroke")]:a.color},..."size"in a&&null!=a.size&&{[o("width")]:a.size,[o("height")]:a.size},..."width"in a&&null!=a.width&&{[o("width")]:a.width},..."height"in a&&null!=a.height&&{[o("height")]:a.height},[o("stroke-width")]:h,...u&&{[o("class")]:u},[o("viewBox")]:`0 0 ${l} ${n}`,...!1===a.hasA11yProp?{[o("aria-hidden")]:"true"}:{},..."attributes"in a&&a.attributes},e.node.map(e=>{let[r,t,s]=e,l=a.nonScalingStroke?{[o("vector-effect")]:"non-scaling-stroke",...t}:t;return s?[r,l,s]:[r,l]})]}(e,{...a,attributeNames:{...a.attributeNames,class:"className","stroke-width":"strokeWidth","stroke-linecap":"strokeLinecap","stroke-linejoin":"strokeLinejoin","vector-effect":"vectorEffect"}})}(p,{color:e??k,width:l??o??j,height:n??o??j,strokeWidth:i??x,absoluteStrokeWidth:d??v,nonScalingStroke:c??g,className:r(y,u),hasA11yProp:b,attributes:f});return(0,a.createElement)(w,{ref:_,...E},[...N.map(([e,r])=>(0,a.createElement)(e,r)),...Array.isArray(h)?h:[h]])});function l(e,r=[],t=[]){let s,n="string"==typeof e?function(e,a,r=[]){if(null==a)throw Error("[lucide]: iconNode is required when icon name is used");return{name:e?.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),size:24,node:a,...r.length>0?{aliases:r}:{}}}(e,r,t):e,i=(0,a.forwardRef)(({className:e,...r},t)=>(0,a.createElement)(o,{ref:t,icon:n,className:e,...r}));return n.name&&(i.displayName=(s=(e=>{let a="",r=!1;for(let t of e){if("-"===t||"_"===t||t<=" "){r=a.length>0;continue}0===a.length?a+=t.toLowerCase():a+=r?t.toUpperCase():t,r=!1}return a})(n.name)).charAt(0).toUpperCase()+s.slice(1)),i}e.s(["default",0,l],79771);let n={name:"x",size:24,node:[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]]};n.node;let i=l(n);e.s(["X",0,i],17279),e.s(["categories",0,[["Униформа летняя","https://formaohrana.ru/letnyaya-forma-ohrannika"],["Униформа зимняя","https://formaohrana.ru/zimnyaya-forma-ohrannika"],["Головные уборы","https://formaohrana.ru/golovnye-ubory"],["Обувь","https://formaohrana.ru/obyv"],["Трикотаж","https://formaohrana.ru/trikotahz"],["Амуниция","https://formaohrana.ru/amunitsiya"]],"colors",0,[{name:"Бежевый",hex:"#b9a477",prefix:"komplect_1",url:"https://formaohrana.ru/polnye-komplekty"},{name:"Чёрный",hex:"#272b2c",prefix:"komplect_3",url:"https://formaohrana.ru/polnye-komplekty-3"},{name:"Олива",hex:"#858a70",prefix:"komplect_4",url:"https://formaohrana.ru/polnye-komplekty-4"}],"money",0,e=>new Intl.NumberFormat("ru-RU").format(e)+" ₽","products",0,[{name:"Куртка летняя «Альфа»",sku:"КТ-АL01",price:1950,image:"full_spetsodezhda-12-9-25-47767.jpg",color:"Чёрный",hex:"#282b2b",url:"https://formaohrana.ru/product/kitel-alpha-chernyy"},{name:"Брюки «Альфа»",sku:"БК-АL02",price:1760,image:"full_spetsodezhda-12-9-25-48021.jpg",color:"Олива",hex:"#858a70",url:"https://formaohrana.ru/product/bryuki-alpha-oliva"},{name:"Рубашка «Альфа», короткий рукав",sku:"РБ2-АL-K01",price:1620,image:"full_spetsodezhda-12-9-25-47717.jpg",color:"Чёрный",hex:"#282b2b",url:"https://formaohrana.ru/product/rubashka-alpha-s-korotkim-rukavom-chernaya"},{name:"Костюм «Спецназ»",sku:"КМ1-СП01",price:3100,image:"full_spetsodezhda-12-9-25-47902.jpg",color:"Чёрный",hex:"#282b2b",url:"https://formaohrana.ru/product/kostyum-spetsnaz-chernyj"}],"variants",0,[{name:"Летний комплект",suffix:"",description:"Китель «Альфа» и брюки. Собранный образ для повседневной работы на объекте."},{name:"Короткий рукав",suffix:"-1",description:"Рубашка «Альфа» с коротким рукавом и брюки. Вариант для тёплого сезона."},{name:"Длинный рукав",suffix:"-3",description:"Рубашка «Альфа» с длинным рукавом и брюки. Единая форма для вашей команды."}]],32039)}]);
