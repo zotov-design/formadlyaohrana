@@ -4,6 +4,16 @@
   font-size: .75cqw;
 }
 
+/* Match the search hint's white text at 65% opacity. */
+.v2-module__BE6ivq__topbar nav a {
+  opacity: .65;
+}
+
+.v2-module__BE6ivq__topbar nav a:hover,
+.v2-module__BE6ivq__topbar nav a:focus-visible {
+  opacity: 1;
+}
+
 .v2-module__BE6ivq__heroMedia {
   top: 1.96875cqw;
 }
